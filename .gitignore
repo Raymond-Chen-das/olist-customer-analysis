@@ -1,0 +1,129 @@
+# =========================
+# Python
+# =========================
+
+# 虛擬環境
+venv/
+env/
+.venv/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# =========================
+# SAS
+# =========================
+
+# SAS 日誌與輸出檔
+*.log
+*.lst
+
+# SAS 暫存資料
+*.sas7bdat
+*.sas7bcat
+sasuser/
+work/
+
+# SAS Studio 暫存
+.sasstudio/
+
+# =========================
+# IDE / 編輯器
+# =========================
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains (PyCharm)
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# =========================
+# 作業系統
+# =========================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# =========================
+# 壓縮檔 (原始資料備份)
+# =========================
+
+# 忽略 raw 資料夾中的壓縮檔（原始資料備份）
+raw/*.zip
+
+# =========================
+# 其他
+# =========================
+
+# 環境變數檔
+.env
+.env.local
+
+# 暫存檔
+*.tmp
+*.temp
+*.bak
+
+# 大型二進位檔案 (可選，取消註解以忽略)
+# *.pdf
