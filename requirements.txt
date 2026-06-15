@@ -1,0 +1,11 @@
+# Core analysis stack (top-level direct deps).
+# Exact pinned versions are in requirements.lock.txt (pip freeze).
+pandas
+numpy
+scipy
+scikit-learn
+statsmodels
+plotly
+# Deferred to module 4 (optional benchmark, install when needed):
+#   xgboost
+#   shap

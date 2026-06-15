@@ -1,0 +1,21 @@
+# Environment
+.venv/
+__pycache__/
+*.pyc
+
+# Generated data & outputs (regenerable from raw via 00→08)
+data/*.db
+outputs/
+
+# Raw CSVs are large (~121MB) — download from Kaggle (see README)
+raw/*.csv
+
+# Process / private docs — kept local, NOT for the public portfolio repo
+CLAUDE.md
+logs/
+docs/project-plan.md
+docs/interview-talking-points.md
+
+# OS
+.DS_Store
+Thumbs.db
